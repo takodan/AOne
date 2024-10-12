@@ -1,9 +1,10 @@
 # Cloudflare Workers AI REST API
 import requests
-
+import hidden
+API_TOKEN = hidden.cloudflare_ai_api_token()
 
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/7bce823e4c20d0e5468a2b866a01743f/ai/run/"
-headers = {"Authorization": "Bearer e201I3O212ISYPWSek2CEHiMGYcX_O4iMDQ203wk"}
+headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 
 def run(model, inputs):
@@ -13,8 +14,8 @@ def run(model, inputs):
 
 
 inputs = [
-    { "role": "system", "content": "You are a friendly assistan that helps write stories" },
-    { "role": "user", "content": "Write a short story about a llama that goes on a journey to find an orange cloud "}
+    { "role": "system", "content": "You are a friendly assistant that helps translate between English and Chinese." },
+    { "role": "user", "content": "translate \"cloudflare\" to chinese"}
 ]
 
 
