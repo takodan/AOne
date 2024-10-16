@@ -1,0 +1,2 @@
+{"success":false,"errors":[{"code":10000,"message":"Authentication error"}]}
+{"errors":[{"message":"AiError: AiError: Unknown internal error","code":3028}],"success":false,"result":{},"messages":[]}

@@ -1,0 +1,65 @@
+```json
+{
+  "store_name": "TRADER JOE'S",
+  "address": {
+    "street": "555 9th Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94103"
+  },
+  "date": "2024-10-24",
+  "time": "12:12:00",
+  "items": [
+    {
+      "name_on_receipt": "MILK HALF GALLON WHOLE",
+      "name": "Milk",
+      "category": "Food & Beverage",
+      "quantity": null,
+      "unit_price": 2.99,
+      "total_price": 2.99
+    },
+    {
+      "name_on_receipt": "SOUP TETRA BONE BROTH CK",
+      "name": "Soup",
+      "category": "Food & Beverage",
+      "quantity": null,
+      "unit_price": 3.49,
+      "total_price": 3.49
+    },
+    {
+      "name_on_receipt": "CREAM CHEESE BRICK",
+      "name": "Cream Cheese",
+      "category": "Food & Beverage",
+      "quantity": null,
+      "unit_price": 1.99,
+      "total_price": 1.99
+    },
+    {
+      "name_on_receipt": "ENGLISH BREAKFAST TEA 40",
+      "name": "English Breakfast Tea",
+      "category": "Food & Beverage",
+      "quantity": null,
+      "unit_price": 2.49,
+      "total_price": 2.49
+    },
+    {
+      "name_on_receipt": "A-ONTIONS JUMBO YELLOW EA",
+      "name": "Onions",
+      "category": "Food & Beverage",
+      "quantity": null,
+      "unit_price": 0.99,
+      "total_price": 0.99
+    }
+  ],
+  "subtotal": 11.95,
+  "tax": null,
+  "grand_total": 11.95,
+  "payment_method": {
+    "type": "Credit Card",
+    "provider": "Visa",
+    "last_four_digits": 27013,
+    "discount": 0.0,
+    "tip": 0.0
+  }
+}
+```
